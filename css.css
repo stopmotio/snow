@@ -1,0 +1,32 @@
+body {
+  margin:0;
+  padding:0;
+  background: url('cold.jpg') no-repeat fixed center;
+}
+
+h1 {
+  text-align:center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#snowlow {
+  background-color:white;
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100vw;
+  height:1vh;
+}
+/*Snow ending in a rectangle is uh kinda weird so i put a png over it. for safety reasons.*/
+#snowupper {
+  position:fixed;
+  bottom:1vh;
+  left:0;
+  width:100vw;
+  height:5vh; /*Stretching the png to ludicrous levels looks ok here, makes it look more like real snow. kinda.*/
+}
+p {
+  font-family:'Source Sans Pro', sans-serif;
+  text-align:center;
+}
